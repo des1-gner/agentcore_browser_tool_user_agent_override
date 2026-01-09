@@ -7,7 +7,7 @@ This repository contains example code demonstrating a browser compatibility issu
 
 ## Overview
 
-The AgentCore Browser includes an AWS identifier in its User-Agent string for transparency and compliance purposes. I believe what's going on is that some websites have strict bot detection may show browser compatibility warnings when they encounter this identifier, even though the AgentCore Browser runs a reasonably new version of Chrome: https://chromereleases.googleblog.com/2025/09/stable-channel-update-for-desktop.html
+The AgentCore Browser includes an AWS identifier in its User-Agent string for transparency and compliance purposes. I believe what's going on is that some websites have strict bot detection may show browser compatibility warnings when they encounter this identifier, even though the AgentCore Browser runs a reasonably new version of Chrome: [https://chromereleases.googleblog.com/2025/09/stable-channel-update-for-desktop.html](https://developer.chrome.com/release-notes/140)
 
 ## Prerequisites
 
