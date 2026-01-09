@@ -48,7 +48,7 @@ This will generate a screenshot (`chase_working.png`) showing the page loading s
 
 ## Important Notes
 
-The workaround removes the AWS identifier from the User-Agent string. Before using this approach in production, consider:
+The workaround uses Chrome DevTools Protocol (CDP) to override the User-Agent string and hide automation indicators. Before using this approach in production, consider:
 - Your organisation's policies regarding browser identification
 - The target website's Terms of Service (ToS)
 - Whether transparent identification of automated traffic is required for your use case
